@@ -2,6 +2,16 @@
 
 Follow these steps to deploy your full-stack portfolio for free.
 
+## Phase 0: Push to GitHub
+1. Create a **New Repository** on [GitHub](https://github.com/new).
+2. Name it (e.g., `portfolio-absar`).
+3. Run these commands in your project root:
+   ```bash
+   git remote add origin https://github.com/YOUR_USERNAME/portfolio-absar.git
+   git branch -M main
+   git push -u origin main
+   ```
+
 ## Phase 1: Database (Neon.tech)
 1. Sign up at [Neon.tech](https://neon.tech/).
 2. Create a new project named `portfolio`.
