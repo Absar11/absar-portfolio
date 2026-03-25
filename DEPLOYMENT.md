@@ -77,3 +77,14 @@ Follow these steps to deploy your full-stack portfolio for free.
 | Key | Value |
 | --- | --- |
 | `NEXT_PUBLIC_API_URL` | `https://your-api.onrender.com/api` |
+
+---
+
+## Phase 5: Seed Production Database
+Since your Neon database is initially empty, you need to push your project data:
+1. Open your terminal in the `backend` folder.
+2. Temporarily change the `.env` values to point to your **Neon Connection String**.
+3. Run: `npx ts-node src/seed.ts`
+4. **Important**: Revert your `.env` changes after seeding to avoid local conflicts.
+
+Alternatively, you can add a "Seed" button to your admin panel or run it as a one-time build step on Render.
