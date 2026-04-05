@@ -25,7 +25,7 @@ export class MessagesService {
         savedMessage.message,
       );
     } catch (error) {
-      console.error('Failed to send email notification:', error);
+      console.error(`Failed to send email notification: ${error.message}`);
       // We don't throw here to ensure the message is still saved and API returns success
     }
 
